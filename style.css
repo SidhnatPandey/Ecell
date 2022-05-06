@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /* box-sizing: border-box; */
+   
+   overflow: hidden;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 2%;
+   border: 3px solid silver;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.heading{
+    display: flex;
+    align-items: "right";
+    margin-right: 0px;
+    background-color: rgb(220, 182, 92);
+}
+.head1{
+    margin: 2% 5%;
+
+}
+.head1 h1{
+    font-size: 1.5rem;
+    /* margin-left: 50%; */
+}
+.head2 {
+    margin-left: 20%;
+}
+.inaccubationactivities h2{
+    background-color: rgb(215, 226, 118);
+    
+}
+.inaccubationactivities{
+    width: 98%;
+    margin: auto;
+}
+.notes1{
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    font-size: 1.2rem;
+}
+.notes{
+    display: flex;
+}
+   
+.images:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.content{
+    max-width: 45%;
+    margin-top: 10%;
+}
+.expert1{
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+}
+.photo {
+   margin-left: 10%;
+}
+ .experiment{
+    width: 95%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.oyee{
+    margin: 2% 0px;
+}
+
+/* .experiment_head{
+    display: flex;
+} */
+.experiment_containt{
+    max-width: 95%;
+     margin: auto; 
+}
+
+#tanga,#table1{
+    max-width: 90%;
+    margin: auto;
+}
+#first_heading, #second_heading{
+    margin: 0px 0px 5px 0px;
+    /* margin: auto; */
+    background-color: rgb(220, 182, 92);
+
+}
+ #third_heading{
+    margin: 2% 0px;
+    background-color: #dcb65c;
+}
+.main_activity1, .main_activity2 {
+    max-width: 45%;
+    border: 2px solid rgba(88, 84, 84, 0.764);
+    border-radius: 1.5%;
+    overflow: hidden;
+    box-shadow: 3px 3px 40px -10px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#proposed_activitiesheading{
+    font-size: 22px;
+    margin-left: 5px;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+.head2 img{
+    width: 8rem; 
+    margin-top: 5%;
+    margin-left: 80%;
+}
+.gopu{
+    display: flex;
+}
+.con2{
+    margin-left: 5%;
+}
+#image, #image1, #image2{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%; 
+}
+
+@media only screen and (max-width:1000px) {
+    .head1 h1{
+        font-size: 1rem;
+    }
+    .head1 h3{
+        font-size: 1rem;
+    }
+    .notes1 li{
+        font-size: 0.9rem;
+    }
+    .paragraph{
+        font-size: 0.9rem;
+    }
+    .main_activity1 h2{
+        font-size: 0.9rem;
+    }
+    .head2 img{
+        width: 3rem;
+        margin-top: 5%;
+        margin-right: 15px;
+    }
+    #third_heading{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 880px) {
+
+   .head1 h1{
+        font-size: 0.7rem;
+    }
+    .head1 h3{
+        font-size: 0.7rem;
+    }  
+    .notes1 li{
+        font-size: 0.6rem;
+    }
+    .paragraph{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (max-width:700px) {
+
+     .head1 h1{
+        font-size: 0.5rem;
+    }
+    .head1 h3{
+        font-size: 0.5rem;
+    } 
+}

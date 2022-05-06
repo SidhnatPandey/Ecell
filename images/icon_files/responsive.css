@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:1220px) {.primarymenu .navbar-inverse .navbar-nav > li > a {padding: 15px 5px; text-transform: unset !important;}}
+@media only screen and (max-width:1220px) {.primarymenu .navbar-inverse .navbar-nav > li > a {padding: 10px 3px; font-size:.8em;}}
+@media only screen and (max-width:915px) {.primarymenu .navbar-inverse .navbar-nav > li > a {font-size:.7em;}}
+@media only screen and (max-width:815px) {.primarymenu .navbar-inverse .navbar-nav > li > a {font-size:0.91em;} .dropdown > a::after{margin-left: 2px;}}
+@media only screen and (max-width:768px) {
+.primarymenu .navbar-inverse .navbar-nav > li > a { padding: 10px 2px !important;}
+.top-nav .col-md-4{ display:none;} 
+.top-nav {font-size:11px;}
+.searchbox {width:100%;}
+.logotext{ margin-left:0px; border-left:0;}
+.logo img{ max-height:50px;}
+.logotext h1{font-size: 14px; line-height:20px;}
+/*.logotext h1 strong,.logotext h1 br{ display:none;} */
+.logotext h2{font-size: 10px;}
+.header .logo-centr,.header .logotext,.header .col-md-2{ float:left; padding:0px 5px;}
+.header .col-md-2{ width:18%;}
+.header .logotext{width:63%; text-align:left}
+#wowslider-container1 .ws_images{ height:auto;}
+.leader-sec{margin:10px 0px;}
+.other-leader{ padding:0px 15px;}
+.eventcard,.newscard1{ width:100% !important; margin-bottom:15px !important}
+.program-section h1{font-size: 1.8em; margin-bottom:8px;}
+.nav-pills > li{float:none;}
+.faculty-section h1{font-size: 1.8em; margin-bottom:15px;}
+.button{font-size: 0.8em; margin-bottom:8px;}
+.govlink{margin: 0px 10px;}
+.govlink img{ height:35px;}
+.about-section{ background-size:cover;}
+.about-section h1{font-size: 1.5em;}
+.implink h1{font-size: 1.8em;}
+.strip .left{ padding:5px 15px; min-height:auto;}
+.program-section .btn-warning{margin-bottom:5px;}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+color: #000;
+background-color:rgba(0,0,0,.09);
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {color: #454545;}
+.dropdown > a::after {float:right; margin-right:10px;}
+.nav > li{ border-bottom:1px solid rgba(0,0,0,.1)}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ border-color:rgba(0,0,0,.1);}
+.main-leader ul{ border-bottom:1px solid rgba(0,0,0,.1); height:auto; overflow:hidden;}
+.main-leader ul li {padding: 8px 0px; float: left; width: 50%;}
+.footadd p{ padding-left:0px;} 
+.otherslink ul{
+height: auto;
+overflow: hidden; margin-bottom:15px;
+}
+.otherslink ul li{ width:50%;}
+.main-leader ul,.other-leader ul{ min-height:auto;}
+.footer-link .rightborder{ min-height:auto;}
+}
+@media only screen and (max-width: 768px) {
+.otherslink ul li{ width:100%; float:none}
+.menuFxd{position:relative;}
+.top-nav li {
+    list-style-type: none;
+    padding: 7px 15px;
+    display: block !important;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    width: 25%;
+	font-size: 1.2em;
+    text-align: center;
+}
+.search {
+    padding: 8px 0px 8px 0px !important;
+    width: 49% !important;
+    border: 0 !important;
+    margin-right: 1px;
+}
+.search.syteam {
+    padding: 7px 15px !important;
+}
+	.card-block a {display:inline-block; width:32%;}
+}
+@media only screen and (max-width: 480px) {
+	.card-block a {display:block; width:100%;}
+     #news_ticker img {width:auto}	
+	.padd-0.eventcard .card-block a img {width:100%;}
+	.img-float {margin-right:20px; margin-bottom:10px;}
+	.gallery .gallery-item {width:50% !important;}
+}
+@media only screen and (max-width: 360px) {
+	.img-float img {max-width:100%;}
+	.gallery .gallery-item {width:100% !important;}
+}
+ 
